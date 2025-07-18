@@ -16,16 +16,41 @@ export default function Home() {
                 <div>
                   <Image src="black_logo.svg" alt="Logo" width={50} height={50} />
                 </div>
-                <div className="flex flex-row gap-2 sm:gap-3 w-full justify-end" role="navigation" aria-label="Social media links">
+                <div className="flex flex-row gap-2 sm:gap-3 w-full items-center justify-end" role="navigation" aria-label="Social media links">
                   <a href="https://x.com/StartVibin" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="Follow us on X/Twitter (opens in new tab)">
                     <p className="text-[11px] sm:text-xs font-medium">X/Twitter</p>
                   </a>
                   <a href="https://t.me/StartVibin" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="Join our Telegram channel (opens in new tab)">
                     <p className="text-[11px] sm:text-xs font-medium">Telegram</p>
                   </a>
-                  <a href="https://docs.startvibin.io/" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="View our GitHub repository (opens in new tab)">
+                  {/*<a href="https://docs.startvibin.io/" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="View our GitHub repository (opens in new tab)">
                     <p className="text-[11px] sm:text-xs font-medium">Documentation</p>
-                  </a>
+                  </a>*/}
+                  <div className="app-wrapper relative inline-block">
+                    <a
+                        href="https://app.startvibin.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="app-button flex w-[120px] h-[33px] px-[13px] py-[5px] justify-center items-center rounded-full bg-black z-10 relative"
+                    >
+                      <Image
+                          src="certik-logo-animated-dark.svg"
+                          alt="app logo animated"
+                          width={120}
+                          height={33}
+                      />
+                    </a>
+
+                    <div className="app-popup-wrapper">
+                      <Image
+                          src="popup.svg"
+                          alt="popup animation"
+                          width={290}
+                          height={133}
+                          className="popup-image"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className=" flex-2 mt-5">
