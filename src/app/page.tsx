@@ -17,7 +17,7 @@ export default function Home() {
                   <Image src="black_logo.svg" alt="Logo" width={50} height={50} />
                 </div>
                 <div className="flex flex-row gap-2 sm:gap-3 w-full items-center justify-end" role="navigation" aria-label="Social media links">
-                  <a href="https://x.com/StartVibin" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="Follow us on X/Twitter (opens in new tab)">
+                  <a href="https://x.com/StartVibin_" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="Follow us on X/Twitter (opens in new tab)">
                     <p className="text-[11px] sm:text-xs font-medium">X/Twitter</p>
                   </a>
                   <a href="https://t.me/StartVibin" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="Join our Telegram channel (opens in new tab)">
@@ -28,7 +28,7 @@ export default function Home() {
                   </a>*/}
                   <div className="app-wrapper relative inline-block">
                     <a
-                        href="https://app.startvibin.io"
+                        href="https://skynet.certik.com/projects/vibin"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="app-button flex w-[120px] h-[33px] px-[13px] py-[5px] justify-center items-center rounded-full bg-black z-10 relative"
@@ -63,9 +63,9 @@ export default function Home() {
                 </p>
               </div>
               <div className="font-bold text-2xl text-black flex-1 flex flex-row gap-2 justify-between mt-6 mb-1" role="group" aria-label="Action buttons">
-                <button className="flex-1 bg-gray-200 text-black py-3 px-3 sm:py-2 sm:px-3 rounded-l-full rounded-r-none text-left" aria-label="Enter invitation code">
+                <a href="https://app.startvibin.io/" target="_blank" className="flex-1 bg-gray-200 text-black py-3 px-3 sm:py-2 sm:px-3 rounded-l-full rounded-r-none text-left" aria-label="Enter invitation code">
                   <p className="text-[13px] sm:text-sm font-medium">Invitation Code</p>
-                </button>
+                </a>
                 <button className="flex-1 bg-gray-200 text-black py-3 px-3 sm:py-2 sm:px-3 rounded-l-none rounded-r-full text-right" aria-label="Open dashboard">
                   <p className="text-[13px] sm:text-sm font-medium">Open Dashboard</p>
                 </button>
